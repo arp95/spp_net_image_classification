@@ -21,17 +21,27 @@ The results after using different CNN architectures are given below:
 
 1. <b>VGG-16(without SPP Layer, pretrained on ImageNet)</b><br>
 
-Training Accuracy = 99.27% and Validation Accuracy = 96.73% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 0.001)<br>
+Training Accuracy = 99.27% and Validation Accuracy = 96.73% (e = 100, lr = 0.005, m = 0.9, bs = 32, wd = 0.001)<br>
 
 
-2. <b>VGG-19(without SPP Layer, pretrained on ImageNet)</b><br>
+2. <b>VGG-16(with SPP Layer)</b><br>
 
-Training Accuracy = 99.13% and Validation Accuracy = 97.25% (e = 50, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
+Training Accuracy = 99.61% and Validation Accuracy = 97.23% (e = 100, lr = 1e-3, m = 0.9, bs = 32, wd = 5e-4)<br>
 
 
-3. <b>ResNet-50(without SPP Layer, pretrained on ImageNet)</b><br>
+3. <b>VGG-19(without SPP Layer, pretrained on ImageNet)</b><br>
 
-Training Accuracy = 99.43% and Validation Accuracy = 98.43% (e = 40, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
+Training Accuracy = 99.13% and Validation Accuracy = 97.25% (e = 100, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
+
+
+4. <b>VGG-19(with SPP Layer)</b><br>
+
+Training Accuracy = 99.51% and Validation Accuracy = 97.45% (e = 100, lr = 1e-3, m = 0.9, bs = 32, wd = 5e-4)<br>
+
+
+5. <b>ResNet-50(without SPP Layer, pretrained on ImageNet)</b><br>
+
+Training Accuracy = 99.43% and Validation Accuracy = 98.43% (e = 100, lr = 0.005, m = 0.9, bs = 32, wd = 5e-4)<br>
 
 
 ### Software Required
